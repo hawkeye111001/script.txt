@@ -1,0 +1,83 @@
+#!/bin/bash
+
+cd ..
+mkdir initrepo1
+cd initrepo1
+git init
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add initrepo1 https://github.com/hawkeye111001/initrepo1.git
+git push initrepo1
+
+
+cd ..
+mkdir initrepo2
+cd initrepo2
+git init 
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add initrepo2 https://github.com/hawkeye111001/initrepo2.git
+git push initrepo2
+
+cd ..
+mkdir initrepo3
+cd initrepo3
+git init 
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add initrepo3 https://github.com/hawkeye111001/initrepo3.git
+git push initrepo3
+
+cd ..
+mkdir initrepo4
+cd initrepo4
+git init 
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add initrepo4 https://github.com/hawkeye111001/initrepo4.git
+git push initrepo4
+
+cd ..
+mkdir initrepo5
+cd initrepo5
+git init 
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add initrepo5 https://github.com/hawkeye111001/initrepo5.git
+git push initrepo5
+
+cd ..
+mkdir initrepo6
+cd initrepo6
+git init 
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add initrepo6 https://github.com/hawkeye111001/initrepo6.git
+git push initrepo6
+
+cd ..
+mkdir initrepo7
+cd initrepo7
+git init 
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add initrepo7 https://github.com/hawkeye111001/initrepo7.git
+git push initrepo7
+
+cd ..
+mkdir initrepo8
+cd initrepo8
+git init 
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add initrepo8 https://github.com/hawkeye111001/initrepo8.git
+git push initrepo8
+
