@@ -1,0 +1,62 @@
+#!/bin/bash
+
+mkdir netflix1
+cd netflix1
+git init
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add netflix1 https://github.com/pranju-git/netflix1.git
+git push netflix1
+
+cd ..
+mkdir netflix2
+cd netflix2
+git init
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add netflix2 https://github.com/pranju-git/netflix2.git
+git push netflix2
+
+cd ..
+mkdir netflix3
+cd netflix3
+git init
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add netflix3 https://github.com/pranju-git/netflix3.git
+git push netflix3
+
+cd ..
+mkdir netflix4
+cd netflix4
+git init
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add netflix4 https://github.com/pranju-git/netflix4.git
+git push netflix4
+
+cd ..
+mkdir netflix5
+cd netflix5
+git init
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add netflix5 https://github.com/pranju-git/netflix5.git
+git push netflix5
+
+cd ..
+mkdir netflix6
+cd netflix6
+git init
+touch test.txt
+git add .
+git commit -m "msg"
+git remote add netflix6 https://github.com/pranju-git/netflix6.git
+git push netflix6
+
+
