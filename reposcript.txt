@@ -1,0 +1,163 @@
+#!/bin/bash
+
+git checkout -b dev1
+touch test{1..10}.txt
+git add .
+git commit -m "msg" test1.txt
+git commit -m "msg" test2.txt
+git commit -m "msg" test3.txt
+git commit -m "msg" test4.txt
+git commit -m "msg" test5.txt
+git commit -m "msg" test6.txt
+git commit -m "msg" test7.txt
+git commit -m "msg" test8.txt
+git commit -m "msg" test9.txt
+git commit -m "msg" test10.txt
+git checkout master
+git merge dev1
+
+git checkout -b dev2
+touch test{1..10}.txt
+git add .
+git commit -m "msg" test1.txt
+git commit -m "msg" test2.txt
+git commit -m "msg" test3.txt
+git commit -m "msg" test4.txt
+git commit -m "msg" test5.txt
+git commit -m "msg" test6.txt
+git commit -m "msg" test7.txt
+git commit -m "msg" test8.txt
+git commit -m "msg" test9.txt
+git commit -m "msg" test10.txt
+git checkout master
+git merge dev2
+
+git checkout -b dev3
+touch test{1..10}.txt
+git add .
+git commit -m "msg" test1.txt
+git commit -m "msg" test2.txt
+git commit -m "msg" test3.txt
+git commit -m "msg" test4.txt
+git commit -m "msg" test5.txt
+git commit -m "msg" test6.txt
+git commit -m "msg" test7.txt
+git commit -m "msg" test8.txt
+git commit -m "msg" test9.txt
+git commit -m "msg" test10.txt
+git checkout master
+git merge dev3
+
+git checkout -b dev4
+touch test{1..10}.txt
+git add .
+git commit -m "msg" test1.txt
+git commit -m "msg" test2.txt
+git commit -m "msg" test3.txt
+git commit -m "msg" test4.txt
+git commit -m "msg" test5.txt
+git commit -m "msg" test6.txt
+git commit -m "msg" test7.txt
+git commit -m "msg" test8.txt
+git commit -m "msg" test9.txt
+git commit -m "msg" test10.txt
+git checkout master
+git merge dev4
+
+git checkout -b dev5
+touch test{1..10}.txt
+git add .
+git commit -m "msg" test1.txt
+git commit -m "msg" test2.txt
+git commit -m "msg" test3.txt
+git commit -m "msg" test4.txt
+git commit -m "msg" test5.txt
+git commit -m "msg" test6.txt
+git commit -m "msg" test7.txt
+git commit -m "msg" test8.txt
+git commit -m "msg" test9.txt
+git commit -m "msg" test10.txt
+git checkout master
+git merge dev5
+
+git checkout -b dev6
+touch test{1..10}.txt
+git add .
+git commit -m "msg" test1.txt
+git commit -m "msg" test2.txt
+git commit -m "msg" test3.txt
+git commit -m "msg" test4.txt
+git commit -m "msg" test5.txt
+git commit -m "msg" test6.txt
+git commit -m "msg" test7.txt
+git commit -m "msg" test8.txt
+git commit -m "msg" test9.txt
+git commit -m "msg" test10.txt
+git checkout master
+git merge dev6
+
+git checkout -b dev7
+touch test{1..10}.txt
+git add .
+git commit -m "msg" test1.txt
+git commit -m "msg" test2.txt
+git commit -m "msg" test3.txt
+git commit -m "msg" test4.txt
+git commit -m "msg" test5.txt
+git commit -m "msg" test6.txt
+git commit -m "msg" test7.txt
+git commit -m "msg" test8.txt
+git commit -m "msg" test9.txt
+git commit -m "msg" test10.txt
+git checkout master
+git merge dev7
+
+git checkout -b dev8
+touch test{1..10}.txt
+git add .
+git commit -m "msg" test1.txt
+git commit -m "msg" test2.txt
+git commit -m "msg" test3.txt
+git commit -m "msg" test4.txt
+git commit -m "msg" test5.txt
+git commit -m "msg" test6.txt
+git commit -m "msg" test7.txt
+git commit -m "msg" test8.txt
+git commit -m "msg" test9.txt
+git commit -m "msg" test10.txt
+git checkout master
+git merge dev8
+
+git checkout -b dev9
+touch test{1..10}.txt
+git add .
+git commit -m "msg" test1.txt
+git commit -m "msg" test2.txt
+git commit -m "msg" test3.txt
+git commit -m "msg" test4.txt
+git commit -m "msg" test5.txt
+git commit -m "msg" test6.txt
+git commit -m "msg" test7.txt
+git commit -m "msg" test8.txt
+git commit -m "msg" test9.txt
+git commit -m "msg" test10.txt
+git checkout master
+git merge dev9
+
+git checkout -b dev10
+touch test{1..10}.txt
+git add .
+git commit -m "msg" test1.txt
+git commit -m "msg" test2.txt
+git commit -m "msg" test3.txt
+git commit -m "msg" test4.txt
+git commit -m "msg" test5.txt
+git commit -m "msg" test6.txt
+git commit -m "msg" test7.txt
+git commit -m "msg" test8.txt
+git commit -m "msg" test9.txt
+git commit -m "msg" test10.txt
+git checkout master
+git merge dev10
+
+git push --all
